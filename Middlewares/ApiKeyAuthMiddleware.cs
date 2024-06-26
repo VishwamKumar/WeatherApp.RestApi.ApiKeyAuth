@@ -1,4 +1,4 @@
-﻿namespace WeatherApp.RestApi.BasicAuth.Middlewares;
+﻿namespace WeatherApp.RestApi.ApiKeyAuth.Middlewares;
 
 public class ApiKeyAuthMiddleware(RequestDelegate next, IConfiguration configuration)
 {

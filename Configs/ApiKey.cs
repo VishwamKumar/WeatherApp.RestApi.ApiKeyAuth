@@ -1,4 +1,4 @@
-﻿namespace WeatherApp.RestApi.BasicAuth.Configs;
+﻿namespace WeatherApp.RestApi.ApiKeyAuth.Configs;
 
 public class ApiKey
 {

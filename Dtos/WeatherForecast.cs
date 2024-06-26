@@ -1,4 +1,4 @@
-namespace WeatherApp.RestApi.BasicAuth.Dtos
+namespace WeatherApp.RestApi.ApiKeyAuth.Dtos
 {
     public class WeatherForecastDto
     {
