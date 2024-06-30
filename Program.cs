@@ -12,8 +12,8 @@ if (app.Environment.IsDevelopment())
     app.UseSwaggerUI();
 }
 
-app.UseMiddleware<ApiKeyAuthMiddleware>();
 app.UseRouting();
+app.UseMiddleware<ApiKeyAuthMiddleware>();
 app.UseHttpsRedirection();
 app.UseAuthorization();
 app.MapControllers();
